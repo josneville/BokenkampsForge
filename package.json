@@ -1,0 +1,23 @@
+{
+  "name": "BokenkampsForge",
+  "version": "1.0.0",
+  "description": "Website for Bokencamp's Forge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josneville/BokenkampsForge"
+  },
+  "author": "Neville Jos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josneville/BokenkampsForge/issues"
+  },
+  "homepage": "https://github.com/josneville/BokenkampsForge",
+  "dependencies": {
+    "express": "*",
+    "morgan": "*"
+  }
+}

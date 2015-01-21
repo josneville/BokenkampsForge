@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'baron';
+    src: url('../fonts/Baron Neue.otf');
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, li, a {
+    font-family: 'baron';
+    color: white;
+}
+
+.centered {
+    justify-content: center;
+    text-align: center;
+}
+
+#header {
+    background-color: #660000;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    align-items: center;
+}
+
+.showcase{
+  width: 50%;
+}
+
+#logo {
+    width: 80%;
+}
+
+.nav {
+    background-color: #EEEEEE;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+  color: #660000;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 20px;
+  width: 100%;
+  font-size: 24px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #BDBDBD;
+}
