@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6, li, a {
 }
 
 .showcase{
-  width: 50%;
+  width: 30%;
 }
 
 #logo {
-    width: 80%;
+    width: 50%;
 }
 
 .nav {
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6, li, a {
   text-decoration: none;
   padding: 20px;
   width: 100%;
-  font-size: 24px;
+  font-size: 18px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
