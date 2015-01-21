@@ -30,6 +30,14 @@ h1, h2, h3, h4, h5, h6, li, a {
     align-items: center;
 }
 
+h2 {
+  font-size: 1vw;
+}
+
+h3{
+  font-size: 0.8vw;
+}
+
 .showcase{
   width: 30%;
 }
@@ -57,7 +65,7 @@ h1, h2, h3, h4, h5, h6, li, a {
   text-decoration: none;
   padding: 20px;
   width: 100%;
-  font-size: 18px;
+  font-size: 1vw;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
